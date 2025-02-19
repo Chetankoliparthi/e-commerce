@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Handlee&family=Honk&family=Outfit:wght@100..900&family=Prata&family=Sacramento&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+a.active hr{
+    display: block;
+}
+*{
+    font-family: Outfit;
+}
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    a.active{
+        background-color: black;
+        color: antiquewhite;
+    }
+  }
+  

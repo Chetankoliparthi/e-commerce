@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Handlee&family=Honk&family=Outfit:wght@100..900&family=Prata&family=Sacramento&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: Outfit;
+}
+
+select,input,textarea{
+    border-radius: 5px;
+    border: 1px solid #c2c2c2;
+    padding: 5px;
+    outline-color : #c586a5;
+}
+.active{
+    background-color: #ffebf5;
+    border-color: #c586a5;
+}
