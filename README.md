@@ -29,3 +29,34 @@ To enhance user flexibility, this project integrates two major online payment ga
 ---
 ![Project Screenshot](./Screenshot%202025-06-04%20133938.png)
 ![Project Screenshot](./Screenshot%202025-06-04%20135711.png)
+
+## 🛠️ Installation & Setup
+
+
+# Clone the repository
+```bash
+git clone https://github.com/Chetankoliparthi/forever-ecommerce.git
+```
+# Navigate to project folder
+```bash
+cd ecommerce
+```
+# Install dependencies for client and server
+```bash
+cd client && npm install
+cd ../server && npm install
+```
+# Create environment variables (.env) for backend
+# Example:
+```bash
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_secret_key
+STRIPE_SECRET_KEY=your_stripe_key
+RAZORPAY_KEY_ID=your_razorpay_key
+RAZORPAY_SECRET=your_razorpay_secret
+```
+# Start the development servers
+```bash
+cd server && npm run dev
+cd ../client && npm start
+```
