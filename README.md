@@ -27,3 +27,4 @@ To enhance user flexibility, this project integrates two major online payment ga
 - 📊 Manage product inventory through a dedicated dashboard
 
 ---
+![Project Screenshot](./Screenshot%202025-06-04%20133938.png)
