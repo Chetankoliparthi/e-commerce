@@ -60,3 +60,23 @@ RAZORPAY_SECRET=your_razorpay_secret
 cd server && npm run dev
 cd ../client && npm start
 ```
+## 🛠️ Tech Stack
+
+| Layer       | Technology Used                       |
+|-------------|----------------------------------------|
+| Frontend    | React.js, Redux Toolkit, Material UI   |
+| Backend     | Node.js, Express.js                    |
+| Database    | MongoDB                                |
+| Auth        | JWT (JSON Web Tokens)                  |
+| Payments    | Stripe API, Razorpay API               |
+| Deployment  | Vercel (Frontend), Render/Heroku (Backend or Mongo Atlas)
+
+---
+
+## 🚀 Deployment
+
+After completing the frontend and backend development, the project is deployed to **Vercel** for public access. The backend APIs are hosted and connected securely to the frontend, enabling full interaction across the platform.
+
+Anyone can now explore this live eCommerce website and experience the features as both a customer and an admin.
+**LIVE PREVIEW** : https://ecommerce-frontend-six-sable.vercel.app/login
+---
